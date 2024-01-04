@@ -1,5 +1,8 @@
 # robotframework-pipe
 
+[![Version](https://img.shields.io/pypi/v/robotframework-pipe.svg)](https://pypi.org/project/robotframework-pipe/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ## Introduction
 
 Pipe is a Robot Framework Library that brings the pipe operator known from functional programming languages into Robot Framework. PipeLibrary is designed to enhance keyword chaining capabilities, it simplifies the process of passing the output of one keyword as an input to another, enabling more readable and maintainable test cases.
@@ -17,6 +20,10 @@ pip install robotframework-pipe
 Here's a basic example to demonstrate the usage of the PipeLibrary:
 
 ```RobotFramework
+*** Settings ***
+Library    PipeLibrary
+
+*** Test Cases ***
 Complex Operation With Pipe
     Pipe    Get User Id    username
     ...    >>    Fetch User Details

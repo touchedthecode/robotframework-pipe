@@ -5,6 +5,7 @@ description = "Enhance Robot Framework with functional-style keyword chaining. S
 license = "Apache-2.0"
 authors = ["touchedthecode <git@touchedthecode.com>"]
 readme = "README.md"
+home-page = "https://github.com/touchedthecode/robotframework-pipe"
 
 packages = [
      { include = "PipeLibrary" },
