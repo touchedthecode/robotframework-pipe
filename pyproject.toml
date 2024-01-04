@@ -1,11 +1,13 @@
 [tool.poetry]
 name = "robotframework-pipe"
-version = "0.1.0"
+version = "0.1.1"
 description = "Enhance Robot Framework with functional-style keyword chaining. Streamline test cases by piping output of one keyword as input to another, simplifying data flow and readability."
 license = "Apache-2.0"
 authors = ["touchedthecode <git@touchedthecode.com>"]
 readme = "README.md"
-home-page = "https://github.com/touchedthecode/robotframework-pipe"
+homepage = "https://github.com/touchedthecode/robotframework-pipe"
+repository = "https://github.com/touchedthecode/robotframework-pipe"
+
 
 packages = [
      { include = "PipeLibrary" },
