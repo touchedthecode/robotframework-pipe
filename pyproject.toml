@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "robotframework-pipe"
+version = "0.1.0"
+description = "Enhance Robot Framework with functional-style keyword chaining. Streamline test cases by piping output of one keyword as input to another, simplifying data flow and readability."
+license = "Apache-2.0"
+authors = ["touchedthecode <git@touchedthecode.com>"]
+readme = "README.md"
+
+packages = [
+     { include = "PipeLibrary" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+robotframework = "^5.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
